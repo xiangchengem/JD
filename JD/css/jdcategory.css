@@ -1,0 +1,34 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:gold;
+}
+.ct_layout{
+    width: 100%;
+    height: 100%;
+}
+.ct_header{
+    width: 100%;
+    /* height: 100%; */
+    height: 50px;
+    background-color: skyblue;
+    position: absolute;
+    border: 1px solid #ccc;
+}
+.ct_content{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    background-color: pink;
+}
+.ct_cLeft{
+    width: 100px;
+    height: 100%;
+    background-color:greenyellow;
+    float: left;
+}
+.ct_cRight{
+    margin-left: 100px;
+    height: 100%;
+    background-color: deeppink;
+}
